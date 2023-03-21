@@ -1,11 +1,11 @@
 import React from 'react';
-import {View, Text} from 'react-native';
 import Container from 'components/Container';
+import {Text} from 'react-native';
 
-export const LoginScreen = () => {
+export const AddInformationScreen = () => {
   return (
     <Container>
-      <Text>Login App Screen</Text>
+      <Text>HOME</Text>
     </Container>
   );
 };

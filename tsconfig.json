@@ -1,6 +1,31 @@
 {
   "compilerOptions": {
-    "jsx": "react"
+    "jsx": "react",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "features": ["./app/features/*"],
+      "navigation": ["./app/navigation/*"],
+      "API": ["./app/common/API/*"],
+      "theme": ["./app/common/theme/*"],
+      "components": ["./app/common/components/*"],
+      "konst": ["./app/common/konst/*"],
+      "utils": ["./app/common/utils/*"],
+      "icons": ["./assets/icons/*"],
+      "images": ["./assets/images/*"]
+    }
   },
-  "extends": "@tsconfig/react-native/tsconfig.json"
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "exclude": ["node_modules"]
 }

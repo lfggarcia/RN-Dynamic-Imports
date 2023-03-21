@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269642000871",
+    "project_id": "panas-73399",
+    "storage_bucket": "panas-73399.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269642000871:android:764f26b11687f41df63542",
+        "android_client_info": {
+          "package_name": "com.motion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269642000871-f3vlpgh6u4ebu6899q7i2i7q2qbclmfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsjiz9havDBHz38_cSxBHzp4ttcT_MCPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269642000871-f3vlpgh6u4ebu6899q7i2i7q2qbclmfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
